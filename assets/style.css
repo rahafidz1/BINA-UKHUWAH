@@ -1,0 +1,353 @@
+* {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+hr{
+  margin: 0;
+padding: 0;
+}
+.bg-header {
+  background-image: url("./IMG_6313\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.background-filter::after {
+  background: linear-gradient(
+    270.05deg,
+    #080a09 -7.29%,
+    rgba(0, 0, 0, 0.53) 52.48%,
+    rgba(0, 0, 0, 0.42054) 99.97%
+  );
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.background-filter {
+  position: relative;
+}
+.background-filter .container {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar {
+  color: white;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.navbar ul li {
+  margin-left: 50px;
+}
+
+.navbar button {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  margin-left: 70px;
+  padding: 3px 30px;
+  border-radius: 30px;
+  background-color: rgba(14, 151, 63, 1);
+}
+
+.hero h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 89px;
+  color: white;
+}
+.hero p {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  color: white;
+}
+.hero button {
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+  border-radius: 22px;
+  padding: 10px 35px;
+  background-color: rgba(14, 151, 63, 1);
+}
+
+
+.tentang .judul h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-decoration: underline #0e973f;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 20px;
+}
+.tentang .title h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 33px;
+  color: rgba(14, 151, 63, 1);
+}
+.tentang p {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+/* .tentang hr {
+    width: 224px;
+} */
+.tentang img {
+  width: 470px;
+  height: 270px;
+  border-radius: 10px;
+}
+.tentang button {
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+  padding: 8px 30px;
+  border-radius: 22px;
+  background-color: rgba(14, 151, 63, 1);
+}
+.layanan {
+  height: 100vh;
+}
+
+.layanan .judul h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-decoration: underline #0e973f;
+  color: rgba(0, 0, 0, 1);
+  margin: 75px 0px 125px 0px;
+}
+.layanan .title p {
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 0px 70px;
+}
+
+.card {
+  width: 259px;
+  height: 228px;
+  align-self: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 7px;
+}
+
+.card h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.card p {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px 35px;
+}
+
+.dot {
+  margin-top: 31px;
+  height: 76px;
+  width: 76px;
+  background-color: #0e973f;
+  border-radius: 50%;
+  display: inline-block;
+}
+.program {
+  height: 100vh;
+}
+
+.program .judul h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-decoration: underline #0e973f;
+  color: rgba(0, 0, 0, 1);
+  margin: 75px 0px 125px 0px;
+}
+
+.card-program {
+  width: 364px;
+  height: 334px;
+  border-radius: 38px;
+  align-self: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 7px;
+}
+
+.card-program img {
+  width: 364px;
+  height: 196px;
+}
+.card-program .container {
+  padding: 0px 0px 0px 20px;
+}
+.card-program h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 13px 0px 13px;
+}
+.progress {
+  width: 85%;
+  height: 10px;
+  margin-bottom: 20px;
+}
+.card-program p {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+  color: rgba(156, 156, 156, 1);
+}
+.card-program span {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(14, 151, 63, 1);
+}
+.bg {
+  background-image: url("/assets/4.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height:100vh;
+}
+.bg-filter::after {
+  background: #0e973f;
+  opacity: 0.8;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.bg-filter {
+  position: relative;
+}
+.bg-filter .container {
+  position: relative;
+  z-index: 1;
+}
+
+.kegiatan .judul h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  margin: 75px 0px 125px 0px;
+}
+
+.kegiatan img {
+  width: 519px;
+  height: 346px;
+}
+.addition h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: white;
+}
+.addition p {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.addition button {
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  color: #0e973f;
+  border-radius: 22px;
+  padding: 8px 30px;
+}
+
+.artikel .judul h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-decoration: underline #0e973f;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* ARTIKEL */
+
+.artikel  {
+  height: 100vh;
+}
+
+.card-artikel {
+  width: 364px;
+  height: 383px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 7px;
+
+}
+.card-artikel img {
+  width: 364px;
+  height: 206px;
+}
+.card-artikel h1 {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color:rgba(14, 151, 63, 1);
+  padding: 21px 27px;
+  margin: 0;
+}
+.card-artikel p {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0px 0px 0px 25px;
+}
+.artikel button {
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  padding: 15px 68px;
+  border-radius: 22px;
+}
+/* FOOTER */
+
+.footer img {
+  width: 89px;
+  height: 89px;
+  padding-top: 31px;
+}
+.about {
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: white;
+  margin: 0px 0px 0px 100px;
+}
+
+.footer p {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  text-align: justify;
+  padding: 44px 0px 70px 0px;
+}
+.alamat{
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: white;
+}
